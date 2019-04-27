@@ -1,0 +1,60 @@
+2>
+
+1.Extension.
+
+Los S.O. Son programas de larga construccion (tiempo y recursos) , dando como producto final una gran coleccion de modulos , programas y otros elementos. Los cuales en su conjunto pueden constitur un S.O. con millones de lineas de codigo.
+
+ejm:
+GNU/Linux :Aun que el kernel de linux es pequen~o , los modulos (daemons/initfrms/services) puedes ser miles , cada uno con mas de 10000 lineas de codigo individualmente.
+
+2. Concurrencia
+
+Los S.O deben administrar los recursos y asignarlos a cada elemento del mismo o programas en ejecucion, razon por la cual debe prevenir interbloqueos o el secuestro de recursos.al tener 2 o mas procesos accediendo a los mismos recursos.
+
+ejm:
+Windows :cuando un programa ocupa demasiado espacion en memoria no permitiendo el uso del computador ("colgar")
+
+3. Seguridad
+
+Los S.O. son la cara usable del computador (interfaces o consola) , siendo usados asi para servidores y usuarios finales. De no priorizar la seguridad, se deja abierta la posibilidad a crimenes digitales.
+
+ejm:
+Escalamiento de Privilegios :  un programa inicia como 'visitante" sin posibilidad a escribir o leer del disco, pero por algun bug o problema en el SO , este programa accede como "administrador" y puede obtener control de la PC.
+
+4.Compartir Recursos
+
+Asignar tiempo en el CPU resulta critico para el normal funcionamiento de un OS , de no funcionar eficientemente podria "dejar olvidado" algun proceso, el cual nunca accederia a los recuros: Ram, CPU y Disco (u otros).
+
+Ejem:
+Miltiplexeo de la tarejta de red : aun que la tarjeta de red puede comunicar un computador con la red internet, de no ser bien administradas, podria dar prioridad a un solo programa y dejar a los demas sin poder usar este recurso, ergo; dejar a casi todos los programas "sin internet".
+
+5. Proyeccion
+
+Un SO debe ser pensado a largo plaso, ya sea para usuarios finale o servidores, planificar la actualizacion o mantenimiento del mismo es critico. 
+
+ejemplo
+Versiones LTS: estas versions del tipo "Mantenimiento a largo plazo" garantizan una dedicacion completa a mejorar el SO por al menos 5 an~os.
+
+
+6. Uso
+
+Es la finalidad del SO, pensando en su area de empleo y usuario final.
+
+ejemplo:
+Windows 10 M : sistema operativo pensado para netbooks (pcs de muy bajos recursos , orientadas a la navegacion web) , este sistema operativo posee todas las caracteristicas de W10 pero sin consumir tantos recursos.
+
+7. Portabilidad
+
+El S.O. debe ser capaz de correr en multiples configuraciones o entornos de Hardware, sin sufrir tantos cambios, aunmentando su area de uso.
+
+
+ejemplo:
+Arch Linux: Arch linux es una version de linux muy proxima al "linux from scratch", permitiendo por tanto su instalacion (aun que complicada, funcional).en casi cualquier computador. Al venir casi vacio permite al usuario configurarlo como desee, sin dejar de ser Arch Linux
+
+8. Compatibilidad Inversa
+
+Todo SO debe garantiza la retrocompatibilidad, pues los usuarios dependientes de el siempre precisaran un tiempo de adaptacion, para poder migrar sus programas a nuevas versiones que funciones en las nuevas versiones del SO.
+
+Ejemplos:
+Programas Legados/Desfasados: Al querer instalar programas que fueron dise~nados pensando en SO modernos para su epoca, se valoro mas su usabilidad inmediata, si bien los SO  de su momento no tenian problema, una mala maniobra por parte del fabricante del SO puede eliminar recursos criticos para el Programa Legado.
+
