@@ -14,22 +14,46 @@
         </br>
         </br>
     <form action="palette.php" method= post>
-        <h4>Color Base de la Paleta</h4>
-        <select id="Color" name="COLORID">
-             <option value="0" name="REDID">Rojo</option>
-             <option value="1" name="BLUEID">Azul</option>
-             <option value="2" name="GREENID">Verde</option>
-         </select>
-        </br>
-        </br>
-        0 <input type="range" id="rangeInput" name="COLORVAL" min="0" max="255",
-         value="127" oninput="amount.value=rangeInput.value"> 255
-        <p>
-        <output id="amount" name="amount" for="COLORVAL">127</output>
-        </p>
-        </br>
-        </br>
-        <input type= submit name="submit" value="Generar Paleta">
+        <h4>Colores</h4>
+        <ol>
+            <li>
+                <div style="background-color:red;" id="red" name="red" onclick="getElementById('tcolor').value='red'">
+                Rojo
+                </div>
+            </li>
+            <li>
+                <div style="background-color:orange;" id="orange" name="orange" onclick="getElementById('tcolor').value='orange'">
+                Anaranjado
+                </div>
+            </li>
+            <li>
+                <div style="background-color:yellow;" id="yellow" name="yellow" onclick="getElementById('tcolor').value='yellow'">
+                Amarillo
+                </div>
+            </li>
+            <li>
+                <div style="background-color:green;" id="green" name="green" onclick="getElementById('tcolor').value='green'">
+                Verde
+                </div>
+            </li>
+            <li>
+                <div style="background-color:blue;" id="blue" name="blue" onclick="getElementById('tcolor').value='blue'">
+                Azul
+                </div>
+            </li>
+            <li>
+                <div style="background-color:indigo;" id="indigo" name="indigo" onclick="getElementById('tcolor').value='indigo'">
+                Morado
+                </div>
+            </li>
+            <li>
+                <div style="background-color:violet;" id="violet" name="violet" onclick="getElementById('tcolor').value='violet'">
+                Violeta
+                </div>
+            </li>
+        </ol>
+        <input id="tcolor" type= submit name="submit" value="Seleccione Un Color">
     </form>
     </body>
 </html>
+
