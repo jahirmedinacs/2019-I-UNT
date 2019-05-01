@@ -13,6 +13,10 @@ if ($color_id=="orange") {
 if ($color_id=="green") {
     echo "Verde, identifica la vitalidad y la naturaleza, otro miembro del modelo RGB";
 }
+if ($color_id=="yellow") {
+    echo "El color amarillo es parte del modelo de color YCKB , siendo fundamental";
+    echo "</br>para dar brillo a los colores generados por este modelo";
+}
 if ($color_id=="blue") {
     echo "Color miembro del modelo RGB y uno de los colores del arcoiris";
 }
