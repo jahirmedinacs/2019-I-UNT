@@ -15,6 +15,7 @@ for ($id_x = 0; $id_x < 3; $id_x++) {
 
 $step_size = 32;
 echo "<center>";
+    echo "<div id=\"bg_color\" style=\"background-color: gray;\">";
     echo "</br>";
     echo "</br>";
     echo "<p id=\"tcolor\" style=\"font-size:medium;\">";
@@ -51,7 +52,7 @@ echo "<center>";
 
             echo "<div style=\"background-color:rgb($red,$green,$blue);\"";
             echo " id=\"color_$id_name\"";
-            echo "onclick=\"getElementById('tcolor').style.color='rgb($red,$green,$blue)'\"";
+            echo "onclick=\"getElementById('bg_color').style.color='rgb($red,$green,$blue)'\"";
             echo ">";
             echo "\tR:\t$red</br>\tG:\t$green</br>\tB:\t$blue";
             //echo "<button onclick=\"getElementById('foo').style.color='rgb($red,$green,$blue)'\">";
@@ -62,7 +63,7 @@ echo "<center>";
         echo "</tr>";
     }
     echo "</table>";
- 
+    echo "</div>";
 echo "</center>";
 ?>
 </body>

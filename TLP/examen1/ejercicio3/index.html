@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <!--TODO-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Pregunta 3</title>
+    </head> 
+    <body>
+        <form action="./formulario.php" method="post">
+        <h1>Formulario de Registro</h1>
+        </br>
+        <p>
+        Nombre de Usuario <input type="text" name="NAME" value="Ingrese Su Nombre">
+        Correo <input type="text" name="EMAIL" value="Ingrese Su Correo">
+        </p>
+        </br>
+        <p>
+        Contrase&#241;a <input type="password" name="PASSWORD" value="Ingrese Su Contrase&#241;a">
+        Sexo
+        <select id="Sexo" name="GEND">
+            <option value="Masculino<" name="GEN1">Masculino</option>
+            <option value="Femenino" name="GEN2">Femenino</option>
+            <option value="Otro" name="GEN3">Otro/No Especifica</option>
+        </select>
+        </p>
+        </br>
+        <p>
+            Subir Foto <input type="file" name="FILE" id="fileinput"> 
+        </p>
+        </br>
+        <p>
+        Cuentanos mas sobre ti:
+        </br>
+        <textarea name="MESSAGE" placeholder="Cuentanos mas sobre ti" rows="5" cols="50"></textarea>
+        </p>
+        <p>
+        Nada <input type="range" id="rangeInput" name="KNOW" min="0" max="100",
+                 value="50" oninput="amount.value=rangeInput.value"> Todo
+        </p>
+        </br>
+        <p>
+            Desea Subscribirse a nuestro boletin?
+            <input type="radio" name="SUBS" value="Si">Si
+            <input type="radio" name="SUBS" value="No">No
+            Cada cuantos dias deseas recibirlo?
+            <input type="number" name"DAYS" value="15" max="365" min="1">
+        </p>
+        </br>
+        <p>
+        <input type="checkbox" required>
+        He leido los terminos de condiciones y uso
+        </p>
+        <p>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Cancelar"onClick="window.location.href=window.location.href">
+        </p>
+        </form>
+    </body>
+</html>
