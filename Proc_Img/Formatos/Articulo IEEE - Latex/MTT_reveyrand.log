@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.4.22)  8 MAY 2019 08:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.14)  14 MAY 2019 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **MTT_reveyrand.tex
 (./MTT_reveyrand.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -581,12 +581,12 @@ Package pdftex.def Info: photo/zoya.png used on input line 836.
  <./photo/ignacio.png> <./photo/erez.png> <./photo/zoya.png>] (./MTT_reveyrand.
 aux) ) 
 Here is how much of TeX's memory you used:
- 4152 strings out of 494953
- 58725 string characters out of 6180977
- 152954 words of memory out of 5000000
- 7342 multiletter control sequences out of 15000+600000
+ 4152 strings out of 493029
+ 58725 string characters out of 6136234
+ 157794 words of memory out of 5000000
+ 7593 multiletter control sequences out of 15000+600000
  43735 words of font info for 80 fonts, out of 8000000 for 9000
- 17 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  38i,19n,37p,1914b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/

@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Articulo.aux
+The style file: apalike.bst
+Database file #1: Bibliography.bib
+Warning--to sort, need author or key in mit_csail
+Warning--to sort, need author or key in majoreports
+Warning--to sort, need author or key in nvidia_tegra
+Warning--to sort, need author or key in youtube_sig2019
+Warning--empty year in nvidia_tegra
+Warning--empty year in mit_csail
+Warning--empty year in youtube_sig2019
+Warning--empty year in majoreports
+Warning--can't use both author and editor fields in Keim2008
+You've used 15 entries,
+            1935 wiz_defined-function locations,
+            561 strings with 6397 characters,
+and the built_in function-call counts, 6057 in all, are:
+= -- 603
+> -- 231
+< -- 9
++ -- 84
+- -- 80
+* -- 485
+:= -- 991
+add.period$ -- 38
+call.type$ -- 15
+change.case$ -- 114
+chr.to.int$ -- 15
+cite$ -- 28
+duplicate$ -- 246
+empty$ -- 420
+format.name$ -- 93
+if$ -- 1235
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 13
+newline$ -- 70
+num.names$ -- 33
+pop$ -- 115
+preamble$ -- 1
+purify$ -- 115
+quote$ -- 0
+skip$ -- 205
+stack$ -- 0
+substring$ -- 436
+swap$ -- 64
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 86
+warning$ -- 9
+while$ -- 41
+width$ -- 0
+write$ -- 175
+(There were 9 warnings)

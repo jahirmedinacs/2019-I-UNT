@@ -1,0 +1,81 @@
+\begin{thebibliography}{}
+
+\bibitem[nvi, ]{nvidia_tegra}
+Introducing nvidia® tegra® 4, the world's fastest mobile processor.
+
+\bibitem[mit, ]{mit_csail}
+Mission and history, m.i.t.
+
+\bibitem[you, ]{youtube_sig2019}
+Technical papers preview: Siggraph 2019.
+
+\bibitem[maj, ]{majoreports}
+Visual computing market is likely to experience a tremendous growth in near
+  future|nvidia corporation, intel corporation, advanced micro devices, arm.
+
+\bibitem[Berger et~al., 2019]{Berger2019}
+Berger, M., Li, J., and Levine, J.~A. (2019).
+\newblock A generative model for volume rendering.
+\newblock {\em {IEEE} Transactions on Visualization and Computer Graphics},
+  25(4):1636--1650.
+
+\bibitem[Dawson-Howe, 2014]{opencv_manual}
+Dawson-Howe, K. (2014).
+\newblock {\em A Practical Introduction to Computer Vision with OpenCV}.
+\newblock Wiley-IS\&T Series in Imaging Science and Technology. Wiley, 1
+  edition.
+
+\bibitem[Duchowski, 2007]{duchowski}
+Duchowski, Z. (2007).
+\newblock Eye tracking techniques.
+\newblock {\em In Eye Tracking Methodology.}, pages 347--351.
+
+\bibitem[Jackson et~al., 2017]{DBLP:journals/corr/JacksonBAT17}
+Jackson, A.~S., Bulat, A., Argyriou, V., and Tzimiropoulos, G. (2017).
+\newblock Large pose 3d face reconstruction from a single image via direct
+  volumetric {CNN} regression.
+\newblock {\em CoRR}, abs/1703.07834.
+
+\bibitem[Keim et~al., 2008]{Keim2008}
+Keim, D., Andrienko, G., Fekete, J.-D., G{\"o}rg, C., Kohlhammer, J., and
+  Melan{\c{c}}on, G. (2008).
+\newblock {\em Visual Analytics: Definition, Process, and Challenges}, pages
+  154--175.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[Lee et~al., 2019]{lee}
+Lee, C., Wong, C., and Kwok, G. (2019).
+\newblock Virtual reality and augmented reality in the management of
+  intracranial tumors.
+\newblock {\em Neuroscience.}, pages 14--20.
+
+\bibitem[Matthies et~al., 2007]{Matthies2007}
+Matthies, L., Maimone, M., Johnson, A., Cheng, Y., Willson, R., Villalpando,
+  C., Goldberg, S., Huertas, A., Stein, A., and Angelova, A. (2007).
+\newblock Computer vision on mars.
+\newblock {\em International Journal of Computer Vision}, 75(1):67--92.
+
+\bibitem[Redmon et~al., 2016]{redmon}
+Redmon, J., Girshick, R., Divvala, S., and Farhadi (2016).
+\newblock You only look once: Unified, real - time object detection.
+\newblock {\em IEEE Conference on computer vision and Pattern
+  Recognition(CVPR).}, pages 779--788.
+
+\bibitem[Shinde et~al., 2018]{shinde}
+Shinde, S., Koyhari, A., and Vikram, G. (2018).
+\newblock Yolo based human action recognition and localization.
+\newblock {\em International conference on Robotics and Smart Manufacturing.},
+  pages 831--838.
+
+\bibitem[Shokishalov and Wang, 2019]{shokishalov}
+Shokishalov, Z. and Wang, H. (2019).
+\newblock Applying eye tracking in information security.
+\newblock {\em 13th International Symposium " Intelligent Systems".}, pages
+  347--351.
+
+\bibitem[Suwajanakorn et~al., 2017]{Suwajanakorn_2017}
+Suwajanakorn, S., Seitz, S.~M., and Kemelmacher-Shlizerman, I. (2017).
+\newblock Synthesizing obama: Learning lip sync from audio.
+\newblock {\em ACM Trans. Graph.}, 36(4):95:1--95:13.
+
+\end{thebibliography}
