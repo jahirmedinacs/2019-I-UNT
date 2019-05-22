@@ -1,0 +1,6 @@
+Es importante que el sistema operativo pueda mantener la integridad de sus archivos y por tanto la organizacion edl mismo
+los chicos con discapacidades cognitivas , si bien son capaces, no deberian priorizar el manejo de acceso de directos y 
+otros procedimientos que se pueden optimizar. Por tanto, una funcion donde aplicar el principio de integridad es en el mantenimiento de accesos directo.
+
+Esto se puede conseguir con una lista enlazada , en la que si un elemento deja de existir, se actualice, evitando asi problemas
+de referencias nulas u otros inconvenientes

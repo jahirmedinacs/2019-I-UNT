@@ -1,0 +1,78 @@
+#! /usr/bin/python3 -s
+
+from subprocess import call, Popen, PIPE
+
+def o_e_terminal(cmd):
+    proc = Popen(cmd, stdout=PIPE, stderr=PIPE)
+    o, e = proc.communicate()
+
+    return o.decode("utf-8").strip(), e.decode("utf-8").strip()
+
+BOLD = '\033[1m'
+UNDERLINE = '\033[4m'
+END = '\033[0m'
+
+##### COMMANDS
+
+cmd_list = ['cal', 'date', 'acpi', 'sensors', 'nproc']
+
+cmd_parms = {'cal': ['-3'],
+             'date': ['-R'],
+             'acpi': ['-b', '-a'],
+             'sensors': [],
+             'nproc': []}
+
+##### Retriving Outputs
+
+cmd_output = {}
+for cmd in cmd_list:
+    __o, _ = o_e_terminal([cmd] + cmd_parms[cmd])
+    cmd_output[cmd] = __o
+
+##### Parsing : Calendar and Date
+
+cal = cmd_output['cal']
+cal = cal[5:]
+
+date = cmd_output['date'].split()
+date[0] = date[0][:-1]
+
+utc = date[-1]
+utc = utc[:-2] + ":" + utc[-2:]
+date[-1] = "UTC {:s}".format(utc)
+
+date[1] = date[1] + " " + date[2] + " " + date[3]
+del date[2:4]
+
+date = "\t\t" +" | ".join(date) + "\n"
+date = BOLD + date + END
+
+cal = cal.split("_\x08")
+cal[1] = BOLD + UNDERLINE + cal[1] + cal[2][0] + END
+cal = cal[0] + cal[1] + cal[2][1:]
+
+####### Battery and CPU temp
+
+battery = BOLD + cmd_output["acpi"].split("\n")[0][11:] + END
+
+cpu_n = int(cmd_output["nproc"])
+sensors = cmd_output["sensors"].split("Core ")
+sensors = sensors[1:]
+
+cpu_temps = [None] * (cpu_n + 1)
+mean = 0
+for ii in range(1, cpu_n + 1):
+    __temp = float(sensors[ii - 1].split(":")[1].split("C")[0][:-1].replace(" ",""))
+    mean += __temp
+    cpu_temps[ii] = " \n\___| >>> CPU {:2d} : {:.3f}|".format(ii, __temp)
+
+cpu_temps[0] = BOLD + "| >>> Mean   : {:.3f}|".format(mean / cpu_n) + END
+cpu_temps = "".join(cpu_temps)
+
+##### Beauty and Sh*t
+
+print(date)
+print(cal)
+
+print("\t Energy Status : ", battery, "\n")
+print(cpu_temps)

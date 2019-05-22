@@ -1,3 +1,0 @@
-#! /bin/bash
-
-cp -r /var/www/tlp/* ~/gitrepos/2019-I-UNT/TLP/
