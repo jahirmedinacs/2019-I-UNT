@@ -1,25 +1,39 @@
+%%{
 function threshold=otsu(hist)
   t_vector = double(1:256 < 0);
   
   for t=1:256
     t_vector(t) = core_otsu(hist, t);
-  endfor
   
-  [_, id_x] = max(t_vector);
+  end
+  
+  [tt, id_x] = max(t_vector);
   threshold = id_x;
 
-endfunction
+end
+%%}
 
-function var_value=core_otsu(hist, t)
-    w_1 = sum(hist(1:t-1));
-    w_2 = sum(hist(t:end));
-    
-    ref_val = double(0:255);    
-    
-    u_1 = sum((ref_val(1:t-1) .* hist(1:t-1)) ./ (w_1 + 1e-64));
-    u_2 = sum((ref_val(t:end) .* hist(t:end)) ./ (w_2 + 1e-64));
-    
-    u_t = w_1*u_1 + w_2*u_2;
-    
-    var_value = w_1 * pow2(u_t - u_1) + w_2 * pow2(u_t - u_2);
-endfunction
+%{
+function level = otsu(histogramCounts)
+total = sum(histogramCounts); % '''total''' is the number of pixels in the given image. 
+%% OTSU automatic thresholding
+top = 256;
+sumB = 0;
+wB = 0;
+maximum = 0.0;
+sum1 = dot(0:top-1, histogramCounts);
+for ii = 1:top
+    wF = total - wB;
+    if wB > 0 && wF > 0
+        mF = (sum1 - sumB) / wF;
+        val = wB * wF * ((sumB / wB) - mF) * ((sumB / wB) - mF);
+        if ( val >= maximum )
+            level = ii;
+            maximum = val;
+        end
+    end
+    wB = wB + histogramCounts(ii);
+    sumB = sumB + (ii-1) * histogramCounts(ii);
+end
+end
+}%

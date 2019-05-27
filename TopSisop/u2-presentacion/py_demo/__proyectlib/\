@@ -1,0 +1,18 @@
+#! /usr/bin/python3 -i
+
+import os
+from o_e_system import o_e_system as o_e_system
+
+def __recursive_tree(current_dir):
+    dirs = o_e_system("ls -d " + current_dir + "/*/")
+    files = o_e_system("ls ")
+
+def from_home_tree():
+    home_root = os.popen('echo $HOME').read().strip()
+    print(home_root) 
+    
+    print(home_root[0])
+    print(o_e_system(['ls', '$HOME']))
+    output = {}
+
+from_home_tree()

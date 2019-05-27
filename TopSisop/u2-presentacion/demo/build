@@ -1,0 +1,11 @@
+#! /bin/bash
+
+temp="$(date +%s)";
+temp=${temp// /_};
+
+c++ ./main.cpp -o "./main_${temp}.o";
+chmod +x "./main_${temp}.o";
+exec "./main_${temp}.o";
+
+echo "BUILD DONE";
+

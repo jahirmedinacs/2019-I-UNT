@@ -1,9 +1,9 @@
 function demo_isodata(path)
-  if !isempty(path)
+  if path == ''
     ref_path = path;
   else 
-    ref_path = file_chooser("../", false, '');
-  endif
+    ref_path = file_chooser('pictures', false, '');
+  end
   
   im = imread(ref_path);
   
@@ -14,4 +14,4 @@ function demo_isodata(path)
 
   show_result(im, bin_im, threshold, n_hist);
 
-endfunction
+end

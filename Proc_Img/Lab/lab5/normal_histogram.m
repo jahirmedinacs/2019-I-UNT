@@ -9,4 +9,4 @@ function output=normal_histogram(im)
   hist_norm = hist_base / elems;
   output=hist_norm;
 
-endfunction
+end

@@ -14,4 +14,4 @@ function show_result(im, bin_im, threshold, hist)
   subplot(3,1,3);
   bar(ref_range, hist, 5)
   
-endfunction
+end
