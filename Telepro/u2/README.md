@@ -1,2 +1,0 @@
-# Teleprocesamiento
-# Teleprocesamiento

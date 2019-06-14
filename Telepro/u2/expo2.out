@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{T\351cnicas de control de Acceso al Medio}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Tramas}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Delimitadores}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Trama Ethernet}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Acceso al Medio para Medios Compartidos}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Acceso controlado para medios compartidos}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Acceso por contenci\363n para medios compartidos}{subsection.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.3}{Acceso al Medio para medios no compartidos}{section.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Duplex Completo}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Duplexaci\363n por divisi\363n de tiempo}{subsection.1.3}% 10
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Duplexaci\363n por divisi\363n de frecuencia}{subsection.1.3}% 11
+\BOOKMARK [3][-]{subsubsection.1.3.4}{SemiDuplex}{subsection.1.3}% 12
+\BOOKMARK [3][-]{subsubsection.1.3.5}{Simplex}{subsection.1.3}% 13
+\BOOKMARK [1][-]{section.2}{C.S.M.A. \(acceso m\372ltiple con escucha de portadora\)}{}% 14
+\BOOKMARK [2][-]{subsection.2.1}{Detecci\363n de Colisiones \(CSMA/CD\)}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Funcionamiento general}{subsection.2.1}% 16
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Trama de CSMA/CD}{subsection.2.1}% 17
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Tipos}{subsection.2.1}% 18
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Problem\341tica en redes inal\341mbricas}{subsection.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.2}{Prevenci\363n de Colisiones \(CSMA/CA\)}{section.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Funcionamiento}{subsection.2.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Problemas que resuelve CSMA/CA \(con respecto a CSMA/CD\)}{subsection.2.2}% 22
+\BOOKMARK [1][-]{section.3}{Hardware de Comunicaci\363n}{}% 23
+\BOOKMARK [1][-]{section.4}{Pilas de Protocolos}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{O.S.I.}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{T.C.P./I.P.}{section.4}% 26

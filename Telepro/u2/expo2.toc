@@ -1,0 +1,27 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}T\IeC {\'e}cnicas de control de Acceso al Medio}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Tramas}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Delimitadores}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Trama Ethernet}{4}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Acceso al Medio para Medios Compartidos}{5}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Acceso controlado para medios compartidos}{5}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Acceso por contenci\IeC {\'o}n para medios compartidos}{6}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Acceso al Medio para medios no compartidos}{7}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Duplex Completo}{7}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Duplexaci\IeC {\'o}n por divisi\IeC {\'o}n de tiempo}{8}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Duplexaci\IeC {\'o}n por divisi\IeC {\'o}n de frecuencia}{8}{subsubsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.4}SemiDuplex}{9}{subsubsection.1.3.4}
+\contentsline {subsubsection}{\numberline {1.3.5}Simplex}{10}{subsubsection.1.3.5}
+\contentsline {section}{\numberline {2}C.S.M.A. (acceso m\IeC {\'u}ltiple con escucha de portadora)}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}Detecci\IeC {\'o}n de Colisiones (CSMA/CD)}{12}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Funcionamiento general}{12}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Trama de CSMA/CD}{14}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Tipos}{15}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Problem\IeC {\'a}tica en redes inal\IeC {\'a}mbricas}{16}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}Prevenci\IeC {\'o}n de Colisiones (CSMA/CA)}{17}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Funcionamiento}{17}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Problemas que resuelve CSMA/CA (con respecto a CSMA/CD)}{19}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {3}Hardware de Comunicaci\IeC {\'o}n}{19}{section.3}
+\contentsline {section}{\numberline {4}Pilas de Protocolos}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}O.S.I.}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}T.C.P./I.P.}{19}{subsection.4.2}
